@@ -1,0 +1,13 @@
+/* You can use more than one background image */
+body{
+    background-image: url("flower.png"), url("background.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 150px 150px, cover;
+    background-attachment: fixed, fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
